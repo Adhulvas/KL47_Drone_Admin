@@ -1,0 +1,43 @@
+# ========================
+# Visual Studio / .NET
+# ========================
+
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+Debug/
+Release/
+
+# NuGet
+packages/
+
+# IIS Express
+.vs/config/
+.vs/iisExpress/
+
+# Logs
+*.log
+
+# OS junk
+Thumbs.db
+Desktop.ini
+
+# ========================
+# Node / Frontend (optional)
+# ========================
+node_modules/
+dist/
+.cache/
+
+# ========================
+# Secrets (IMPORTANT)
+# ========================
+appsettings.json
+appsettings.Development.json
+.env
